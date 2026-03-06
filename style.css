@@ -183,6 +183,7 @@ body {
 
 .btn-primary:hover {
     opacity: 0.9;
+    transform: scale(1.05);
 }
 
 .btn-secondary:hover {
@@ -384,4 +385,13 @@ body {
         width: 100%;
         gap: 15px;
     }
+}
+
+/* Smooth scroll para navegação do menu */
+html{
+  scroll-behavior: smooth;
+}
+
+section{
+    scroll-margin-top: 100px;
 }
